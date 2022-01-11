@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478941086576",
+    "project_id": "atikfinalpro",
+    "storage_bucket": "atikfinalpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478941086576:android:38d2853b5c4e681830c5b5",
+        "android_client_info": {
+          "package_name": "com.example.atikfinalpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478941086576-rr9mu20b81mm1gho9um8kl5ath2mi505.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4eDV9YoVfHK738J-FiUcpGBA7MRKVHgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478941086576-rr9mu20b81mm1gho9um8kl5ath2mi505.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@color/black"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Welcome to Classio"
+        android:textColor="#FFC107"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/classiooo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25sp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".5">
+
+        <EditText
+            android:id="@+id/etname1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColorHint="#FFC107"
+            android:hint="Enter Your Name"
+            android:background="@drawable/input_bg"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioShifts"
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:backgroundTint="#FFC107"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select User Type:"
+            android:paddingRight="10sp"
+            android:textColor="#FFC107"/>
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:paddingRight="10sp"
+            android:textColor="@color/white"
+            android:text="Admin"/>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:paddingRight="10sp"
+            android:onClick="checkButton"
+            android:text="Customer"/>
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:onClick="checkButton"
+            android:text="Seller"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btna1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/input_bg"
+        android:text="Next"
+        android:textAllCaps="false" />
+
+
+
+</LinearLayout>
